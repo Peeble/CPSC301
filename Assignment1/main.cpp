@@ -74,10 +74,6 @@ void Deposit(string custName, string a[][2], int N)
 
             a[i][1] = to_string(newbal);
         }
-        else
-        {
-            cout << "no record found" << endl;
-        }
     }
 }
 
