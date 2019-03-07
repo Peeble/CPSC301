@@ -48,19 +48,6 @@ void readData (vector<Person> &employees)
 
             employees.push_back(temp);
         }
-        /*
-
-        for (int i = 0; i < 20; i++)
-        {
-            input >> fname >> lname >> hours >> rate;
-
-            array[i].setFirstName(fname);
-            array[i].setLastName(lname);
-            array[i].setHoursWorked(hours);
-            array[i].setPayRate(rate);
-
-            //cout << fname << lname << hours << rate << endl;
-        } */
     }
     input.close();
     employees.pop_back();
